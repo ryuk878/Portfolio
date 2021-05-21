@@ -147,9 +147,9 @@ body {
   font-size: 75px;
   color: #333;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .main h1 {
-    font-size: 50px;
+    font-size: 25px;
   }
   .main p {
     font-size: 25px;
@@ -157,7 +157,7 @@ body {
 }
 @keyframes reveal {
   80% {
-    letter-spacing: 8px;
+    letter-spacing: 4px;
   }
   100% {
     background-size: 300% 300%;
