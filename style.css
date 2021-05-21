@@ -142,6 +142,7 @@ body {
 .main h1 {
   font-size: 100px;
   color: #333;
+  white-space: nowrap;
 }
 .main p {
   font-size: 75px;
@@ -149,10 +150,10 @@ body {
 }
 @media screen and (max-width: 480px) {
   .main h1 {
-    font-size: 25px;
+    font-size: 18px;
   }
   .main p {
-    font-size: 25px;
+    font-size: 18px;
   }
 }
 @keyframes reveal {
@@ -161,5 +162,13 @@ body {
   }
   100% {
     background-size: 300% 300%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main h1 {
+    font-size: 25px;
+  }
+  .main p {
+    font-size: 25px;
   }
 }
