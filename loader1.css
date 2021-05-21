@@ -1,0 +1,46 @@
+.loader {
+  height: 50px;
+  transform-origin: bottom center;
+  animation: rotate 2.2s linear infinite;
+}
+.circle {
+  display: inline-block;
+  background-color: #003049;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: grow 1.5s linear infinite;
+  margin: 10px;
+}
+.circle:nth-child(2) {
+  background-color: #d62828;
+  animation-delay: 0.25s;
+}
+.circle:nth-child(3) {
+  background-color: #f88203f5;
+  animation-delay: 0.5s;
+}
+.circle:nth-child(4) {
+  background-color: #fcbf49;
+  animation-delay: 0.75s;
+}
+.circle:nth-child(5) {
+  background-color: #f3e17a;
+  animation-delay: 1s;
+}
+
+@keyframes grow {
+  25% {
+    transform: scale(0.25);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  75% {
+    transform: scale(1);
+  }
+  85% {
+    transform: scale(2);
+  }
+}
