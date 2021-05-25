@@ -139,6 +139,7 @@ body {
   opacity: 0;
   display: none;
   transition: 2s ease-in;
+  
 }
 .main h1 {
   font-size: 100px;

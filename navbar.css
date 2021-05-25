@@ -17,7 +17,7 @@ nav {
   color: rgb(226, 226, 226);
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .nav-links {
@@ -35,7 +35,7 @@ nav {
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 24px;
 }
 
 .burger {

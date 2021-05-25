@@ -23,6 +23,7 @@ p {
   display: flex;
   font-size: 70px;
   justify-content: space-around;
+  padding-top: 30px;
   
 }
 
@@ -47,21 +48,18 @@ p {
     font-size: 25px;
   }
   .main1 {
-    padding-top: 120px;
+    padding-top: 10px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .main1 p {
-    font-size: 30px;
+    font-size: 33px;
   }
 }
 
-.linkedin { 
-width: 80px;
-height: 80px;
-border: 1px solid blue;
-background-color: #333;
-color: blue;
-
+.socials1 { 
+  display: flex;
+  justify-content: center;
+ column-gap: 10px;
 }

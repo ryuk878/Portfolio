@@ -10,7 +10,84 @@ body {
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   display: flex;
   align-items: center;
-  justify-content: center;
+
   min-height: 100vh;
   color: #333;
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color:#5d4954;
+  padding: 5px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+ 
+}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #333;
+  display: inline-block;
+  padding: 40px 0px 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 3s 0s;
+  -moz-animation: load 3s 0s;
+  -o-animation: load 3s 0s;
+}
+
+.bar.front::before{
+  background-color: #333;
+}
+.bar.back::before{
+  background-color: #333;
+}
+
+.bar.learning::before{
+  width: calc(1% - 10px);
+}
+.bar.basic::before{
+  width: calc(1% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(20% - 10px);
+}
+.bar.advanced::before{
+  width: calc(40% - 10px);
+}
+.bar.expert::before{
+  width: calc(75% - 10px);
+}
+.socials1 { 
+  display: flex;
+  justify-content: center;
+ column-gap: 10px;
 }

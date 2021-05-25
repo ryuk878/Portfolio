@@ -29,4 +29,3 @@ text.set({
 
 text.start();
 text.reveal(9000);
-

@@ -2,6 +2,7 @@ const loader = document.querySelector(".loader");
 const main = document.querySelector(".main");
 const navslide = document.querySelector("nav");
 
+
 function init() {
   setTimeout(() => {
     loader.style.opacity = 0;
@@ -12,6 +13,7 @@ function init() {
     setTimeout(() => (main.style.opacity = 1), 1);
     setTimeout(() => (navslide.style.opacity = 1), 1);
     setTimeout(() => (mcontent.style.opacity = 1), 1);
+
   }, 2200);
 }
 
