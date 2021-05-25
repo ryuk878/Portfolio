@@ -8,7 +8,7 @@ function init() {
     loader.style.display = "none";
 
     main.style.display = "block";
-    
+
     setTimeout(() => (main.style.opacity = 1), 1);
     setTimeout(() => (navslide.style.opacity = 1), 1);
     setTimeout(() => (mcontent.style.opacity = 1), 1);
